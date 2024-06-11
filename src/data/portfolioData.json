@@ -1,0 +1,33 @@
+[
+    {
+      "id": 588922139,
+      "title": "Project Bank ATM System",
+      "src": "port-assets/project-bank-atm.jpeg"
+    },
+    {
+      "id": 761696092,
+      "title": "Mini-project with Minimal API",
+      "src": "port-assets/minimal-api.png"
+    },
+    {
+      "id": 761166670,
+      "title": "School Database Management with SQL & C#",
+      "src": "port-assets/school-management-system.jpeg"
+    },
+    {
+      "id": 800055818,
+      "title": "Responsive CV Site",
+      "src": "port-assets/responsive-cv-site.png"
+    },
+    {
+      "id": 761693289,
+      "title": "Threading Car Race",
+      "src": "port-assets/car-racing.png"
+    },
+    {
+      "id": 716508231,
+      "title": "OOP Inheritance in C#",
+      "src": "port-assets/oop-inheritance-csharp.jpeg"
+    }
+  ]
+  

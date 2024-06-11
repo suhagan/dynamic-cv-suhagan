@@ -1,0 +1,32 @@
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-column {
+    flex: 55%;
+    padding: 20px;
+}
+
+.side-column {
+    flex: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.side-column img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Add responsiveness for about me page */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        flex: 1 1 100%;
+    }
+}
