@@ -1,10 +1,10 @@
 import React from 'react';
-import './AboutMe.css';
+import './MyResume.css';
 import resumeImage from '../assets/Suhagan.jpeg';
 
-function AboutMe() {
+function MyResume() {
   return (
-    <div className="about-me">
+    <div className="my-resume">
       <div className="main-column">
         <h2>Summary</h2>
         <p>
@@ -19,4 +19,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default MyResume;
