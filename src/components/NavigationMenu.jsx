@@ -4,15 +4,7 @@ import './NavigationMenu.css';
 
 function NavigationMenu() {
   return (
-    /* <nav className="navigation-menu">
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/resume">My Resume</Link></li>
-        <li><Link to="/portfolio">My Portfolio</Link></li>
-        <li><Link to="/contact">Contact Me</Link></li>
-      </ul>
-    </nav>*/ 
+
 
     <nav className="navigation-menu">
       <ul>

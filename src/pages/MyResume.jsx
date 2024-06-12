@@ -6,6 +6,8 @@ import skillData from '../data/skillData.json';
 import educationData from '../data/educationData.json';
 
 function MyResume() {
+
+    
   return (
     <div className="my-resume">
       <div className="main-column">

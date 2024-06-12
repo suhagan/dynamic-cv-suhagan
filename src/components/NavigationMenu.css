@@ -1,4 +1,4 @@
-.navigation-menu {
+ .navigation-menu {
     background-color: #444;
     color: #fff;
     padding: 10px;
@@ -9,9 +9,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; 
     /*justify-content: center;*/
-    flex-wrap: wrap;
+     flex-wrap: wrap;
 }
 
 .navigation-menu li {
@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.navigation-menu a {
+.navigation-menu a { 
     /*color: #fff;
     text-decoration: none;*/
     text-decoration: none;
@@ -40,10 +40,10 @@
 .navigation-menu .active-link {
     background: rgb(6, 190, 46);
     color: black;
-  }
+  } 
 
 /* Add responsiveness for navigation menu */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     .navigation-menu ul {
         flex-direction: column;
         align-items: center;
@@ -52,4 +52,5 @@
     .navigation-menu li {
         margin: 5px 0;
     }
-}
+} 
+
