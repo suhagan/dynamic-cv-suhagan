@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './MyResume.css';
 import resumeImage from '../assets/Suhagan.jpeg';
 import experienceData from '../data/experienceData.json';
@@ -7,9 +7,33 @@ import educationData from '../data/educationData.json';
 
 function MyResume() {
 
+  useEffect(() => {
+    const loadScript = (src) => {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.async = true;
+        script.onload = resolve;
+        script.onerror = reject;
+        document.body.appendChild(script);
+      });
+    };
+
+    const loadScripts = async () => {
+      try {
+        await loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js');
+        await loadScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js');
+      } catch (error) {
+        console.error('Error loading scripts:', error);
+      }
+    };
+
+    loadScripts();
+  }, []);
+  
     
   return (
-    <div className="my-resume">
+    <div id="resume-content" className="my-resume">
       <div className="main-column">
         <h2>Summary</h2>
         <p>
