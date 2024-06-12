@@ -14,7 +14,7 @@ function MyResume() {
           Skilled in Full-stack Development.NET, analyzing, designing, and coordinating projects having basic knowledge in programming languages like C/C++, C#, and HTML-CSS. A gregarious, independent, flexible and a versatile person capable of multitasking in a multicultural workplace, who excels in innovative thinking and collaboration.
         </p>
         
-        <h2>Experience</h2>
+        <h2>Courses</h2>
         {experienceData.Courses.map((course, index) => (
           <div key={index} className="experience-item">
             <h3>{course.CourseName}</h3>
@@ -32,7 +32,7 @@ function MyResume() {
           <p>Stockholm, Sweden.<br />
             +46 700 86 65 47 <br /></p>
           <a href="mailto:suhaganmostahid@yahoo.com">suhaganmostahid@yahoo.com</a>
-          <br></br>
+          
           <div className="share">
             <a href="#" className="fab fa-facebook-f"></a>
             <a href="#" className="fab fa-twitter"></a>
@@ -40,35 +40,37 @@ function MyResume() {
             <a className="fab fa-linkedin" href="https://www.linkedin.com/in/suhagan-mostahid-914b62100/"></a>
           </div>
         </div>
-        <br></br>
         
-        <h2>Skills</h2>
+        
         <h3>Key Skills</h3>
         <ul>
           {skillData.KeySkills.map((skill, index) => (
             <li key={index}>{skill}</li>
           ))}
         </ul>
-        <br></br>
+        
         <h3>Core Competencies</h3>
         <ul>
           {skillData.CoreCompetencies.map((competency, index) => (
             <li key={index}>{competency}</li>
           ))}
         </ul>
+
         <h3>Basic Knowledge</h3>
         <ul>
           {skillData.BasicKnowledges.map((knowledge, index) => (
             <li key={index}>{knowledge}</li>
           ))}
         </ul>
-        <h3>Languages</h3>
+
+        <h2>Languages</h2>
         <ul>
           {Object.entries(skillData.Languages).map(([language, proficiency], index) => (
             <li key={index}>{language}: {proficiency}</li>
           ))}
         </ul>
-        <h3>Hobbies</h3>
+
+        <h2>Hobbies</h2>
         <ul>
           {skillData.Hobbies.map((hobby, index) => (
             <li key={index}>{hobby}</li>
