@@ -1,0 +1,47 @@
+{
+    "Courses":[
+       {
+          "Period":"Jun'21 - Jul'21",
+          "CourseName":"Programming 1, using C#",
+          "Institution":"NTI School",
+          "Location":"Stockholm",
+          "Description":"Gaining knowledge and understanding on basic searching and sorting algorithms, multidimensional arrays and analyzing C++ function to determine its computational complexity.",
+          "ToolsUsed":[
+             "Visual Studio Code"
+          ]
+       },
+       {
+          "Period":"2020",
+          "CourseName":"Svenska som andraspråk 2 & 3",
+          "Institution":"Hermods AB",
+          "Location":"Uppsala",
+          "Description":"Achieved skills to use Swedish as second language in professional level.",
+          "ToolsUsed":[
+             "MS Word",
+             "MS PowerPoint"
+          ]
+       },
+       {
+          "Period":"2019",
+          "CourseName":"Svenska som andraspråk 1",
+          "Institution":"Hermods AB",
+          "Location":"Uppsala",
+          "Description":"Achieved skills to use Swedish as second language in professional level.",
+          "ToolsUsed":[
+             "MS Word",
+             "MS PowerPoint"
+          ]
+       },
+       {
+          "Period":"2019",
+          "CourseName":"Web Development 1 & 2",
+          "Institution":"Hermods AB",
+          "Location":"Uppsala",
+          "Description":"Achieved knowledge about web development and the web technologies that websites are based on. Also learned to create structure and design with style templates, handle the basics of HTML, JavaScripts and CSS.",
+          "ToolsUsed":[
+             "Visual Studio Code",
+             "Notepad++"
+          ]
+       }
+    ]
+ }

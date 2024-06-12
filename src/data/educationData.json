@@ -1,0 +1,18 @@
+{
+    "Education":[
+       {
+          "Period":"Aug'23 - now",
+          "Course":"Full-stack Developer .NET",
+          "Degree":"Yrkesutbildning",
+          "Institution":"Chas Academy",
+          "Location":"Stockholm, Sweden"
+       },
+       {
+          "Period":"2007 - 2011",
+          "Course":"Electronics & Telecommunications Engineering",
+          "Degree":"Bachelors / B.Sc.",
+          "Institution":"University Of Development Alternative (UODA)",
+          "Location":"Dhaka, Bangladesh"
+       }
+    ]
+ }

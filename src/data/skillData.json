@@ -1,0 +1,36 @@
+{
+    "KeySkills":[
+       "Teamwork",
+       "Problem Solving",
+       "Administration",
+       "Project Coordinating"
+    ],
+    "CoreCompetencies":[
+       "Programming in C#",
+       "HTML",
+       "CSS",
+       "Javascript (Vanilla, React)",
+       "ASP .NET Core",
+       "MS SQL"
+    ],
+    "BasicKnowledges":[
+       "Programming in C/C++",
+       "MS Word",
+       "MS Excel",
+       "MS PowerPoint",
+       "Operating system: Windows",
+       "Operating system: Mac OS"
+    ],
+    "Languages":{
+       "English":"Professional Proficiency",
+       "Swedish":"Professional Proficiency",
+       "Bengali":"Native"
+    },
+    "Hobbies":[
+       "Reading novels",
+       "Traveling",
+       "Listening to music",
+       "Singing for myself",
+       "Watching Christmas movies"
+    ]
+ }
