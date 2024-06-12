@@ -1,50 +1,81 @@
 .my-resume {
     display: flex;
     flex-wrap: wrap;
-}
-
-.main-column {
-    flex: 55%;
     padding: 20px;
-}
-
-.side-column {
-    flex: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
   }
-
-.side-column img {
-    max-width: 50%;
-    height: auto;
-  }
-
-.resume-text {
+  
+  .main-column {
     flex: 1 1 55%;
     padding: 20px;
-}
-
-.resume-details {
+    box-sizing: border-box;
+  }
+  
+  .side-column {
     flex: 1 1 45%;
     padding: 20px;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
-    align-items: center;
-}
-
-.resume-details img {
+    /* align-items:baseline; */
+  }
+  
+  .information {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .information img {
     max-width: 100%;
-    height: auto;
-}
+    height: 20%;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  
+  .information h3 {
+    margin-top: 10px;
+  }
+  
+  .information p,
+  .information a {
+    margin: 15px 15;
+    margin-bottom: 5px;
+  }
+  
+  .share a {
+    
+    margin-top: 10px;
+    margin: 0 20px;
+    margin-inline: 20;
+    text-decoration: none;
+  }
+  
+  .experience-item,
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3,
+  .education-item h3 {
+    margin: 5px 0;
+  }
+  
+  .skills, .education, .languages, .hobbies {
+    width: 100%;
+  }
+  
+  .skills h3, .education h3, .languages h3, .hobbies h3 {
+    text-align: left;
+  }
 
-/* Add responsiveness for my resume page */
-@media (max-width: 768px) {
+  /* Add responsiveness for my resume page */
+  @media (max-width: 768px) {
     .my-resume {
-        flex-direction: column;
+      flex-direction: column;
     }
-
-    .resume-text, .resume-details {
-        flex: 1 1 100%;
+  
+    .main-column, .side-column {
+      flex: 1 1 100%;
     }
-}
+  }
+  
