@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dynamic-cv-suhagan/static/css/main.d69baf27.css",
+    "main.js": "/dynamic-cv-suhagan/static/js/main.5d6aa8e7.js",
+    "static/js/213.2b8f5e82.chunk.js": "/dynamic-cv-suhagan/static/js/213.2b8f5e82.chunk.js",
+    "static/js/732.a7814786.chunk.js": "/dynamic-cv-suhagan/static/js/732.a7814786.chunk.js",
+    "static/js/453.71c777c6.chunk.js": "/dynamic-cv-suhagan/static/js/453.71c777c6.chunk.js",
+    "static/media/Suhagan.jpeg": "/dynamic-cv-suhagan/static/media/Suhagan.dde0612fe77fc8ec6217.jpeg",
+    "static/media/female-developer.png": "/dynamic-cv-suhagan/static/media/female-developer.88572b30c780f69504f7.png",
+    "static/media/woman-programmer.png": "/dynamic-cv-suhagan/static/media/woman-programmer.7db0c19c664527db4df3.png",
+    "index.html": "/dynamic-cv-suhagan/index.html",
+    "main.d69baf27.css.map": "/dynamic-cv-suhagan/static/css/main.d69baf27.css.map",
+    "main.5d6aa8e7.js.map": "/dynamic-cv-suhagan/static/js/main.5d6aa8e7.js.map",
+    "213.2b8f5e82.chunk.js.map": "/dynamic-cv-suhagan/static/js/213.2b8f5e82.chunk.js.map",
+    "732.a7814786.chunk.js.map": "/dynamic-cv-suhagan/static/js/732.a7814786.chunk.js.map",
+    "453.71c777c6.chunk.js.map": "/dynamic-cv-suhagan/static/js/453.71c777c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d69baf27.css",
+    "static/js/main.5d6aa8e7.js"
+  ]
+}
