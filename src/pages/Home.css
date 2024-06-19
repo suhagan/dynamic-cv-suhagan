@@ -1,39 +1,3 @@
-/* .home {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .main-column {
-    flex: 55%;
-    padding: 100px;
-    box-sizing: border-box;
-  }
-  
-  .side-column {
-    flex: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  
-  .side-column img {
-    max-width: 100%;
-    height: auto;
-  }
-   */
-  /* Add responsiveness for home page */
-  /* @media (max-width: 768px) {
-    .home {
-      flex-direction: column;
-    }
-  
-    .main-column, .side-column {
-      flex: 1 1 100%;
-    }
-  }
-   */
-
    .home {
     display: flex;
     flex-wrap: wrap;
