@@ -53,7 +53,7 @@ function MyPortfolio() {
                */}
                <img src={process.env.PUBLIC_URL + '/' + project.src} alt={project.title} />
               
-              <h3>{project.title}</h3>
+              <h5>{project.title}</h5>
               <button onClick={() => handleMoreInfo(project)}>More Info</button>
             </div>
           ))}

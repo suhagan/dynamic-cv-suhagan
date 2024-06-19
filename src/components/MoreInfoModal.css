@@ -1,53 +1,54 @@
 .modal {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.923);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Slightly increased transparency */
 }
 
 .modal-content {
-    background-color: #979797;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px; /* Set a maximum width for larger screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
 }
 
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/* Add responsiveness for modal */
+/* Added responsiveness for modal */
 @media (max-width: 768px) {
-    .modal-content {
+  .modal-content {
       width: 95%;
-    }
   }
+}
 
-  /* Add responsiveness for smaller screens (max-width: 480px) */
+/* Added responsiveness for smaller screens (max-width: 480px) */
 @media (max-width: 480px) {
-    .modal-content {
-      width: 80%;
+  .modal-content {
+      width: 90%;
       padding: 10px;
       margin: 10% auto;
-    }
+  }
 
-  
-    .close {
+  .close {
       font-size: 24px;
-    }
+  }
 }
