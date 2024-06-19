@@ -48,7 +48,11 @@ function MyPortfolio() {
         <div className="portfolio-grid">
           {projects.map(project => (
             <div className="project" key={project.id}>
-              <img src={project.src} alt={project.title} />
+              {/* <img src={project.src} alt={project.title} /> */}
+              {/* <img src={require(`../assets/${project.src}`).default} alt={project.title} />
+               */}
+               <img src={process.env.PUBLIC_URL + '/' + project.src} alt={project.title} />
+              
               <h3>{project.title}</h3>
               <button onClick={() => handleMoreInfo(project)}>More Info</button>
             </div>
